@@ -1,0 +1,74 @@
+:root {
+  --dark--color: rgb(37, 37, 37);
+  --white--color: rgb(12, 109, 136);
+  --blue--color: rgb(101, 202, 202);
+  --white--dark--color: rgb(119, 119, 119);
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #d1cccc;
+  background-image: url(https://getwallpapers.com/wallpaper/full/a/8/9/1290835-blue-white-yellow-wallpaper-1920x1080-windows.jpg);
+}
+
+.nav1 {
+  display: flex;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+.a1,
+.a2 {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: var(--white--color);
+}
+
+.name {
+  color: var(--blue--color);
+}
+.img1 {
+  width: 600px;
+}
+
+.body-img {
+  margin-top: 50px;
+}
+p {
+  color: var(--white--dark--color);
+}
+.text {
+  width: 1200px;
+}
+.mt-5 {
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: block;
+  }
+  .nav1 {
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .img1 {
+    width: 300px;
+  }
+  .text {
+    font-size: 0;
+  }
+  h3 {
+    width: 300px;
+  }
+}
