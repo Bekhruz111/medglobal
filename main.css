@@ -1,8 +1,8 @@
 :root {
-  --dark--color: rgb(37, 37, 37);
-  --white--color: rgb(12, 109, 136);
-  --blue--color: rgb(101, 202, 202);
-  --white--dark--color: rgb(119, 119, 119);
+  --dark-color: rgb(37, 37, 37);
+  --white-color: rgb(12, 109, 136);
+  --blue-color: rgb(101, 202, 202);
+  --white-dark-color: rgb(119, 119, 119);
 }
 
 body {
@@ -18,23 +18,22 @@ body {
   background-image: url(https://getwallpapers.com/wallpaper/full/a/8/9/1290835-blue-white-yellow-wallpaper-1920x1080-windows.jpg);
 }
 
-.nav1 {
+.nav-col {
   display: flex;
   margin-top: 25px;
   padding-bottom: 10px;
 }
 
-.a1,
-.a2 {
+.nav-link {
   padding-left: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
   text-decoration: none;
-  color: var(--white--color);
+  color: var(--white-color);
 }
 
 .name {
-  color: var(--blue--color);
+  color: var(--blue-color);
 }
 .img1 {
   width: 600px;
@@ -44,7 +43,7 @@ body {
   margin-top: 50px;
 }
 p {
-  color: var(--white--dark--color);
+  color: var(--white-dark-color);
 }
 .text {
   width: 1200px;
