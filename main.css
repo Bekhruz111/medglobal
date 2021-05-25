@@ -58,6 +58,9 @@ body {
 .intro-content-titel {
   margin-left: 5em;
 }
+.nav-logo {
+  height: 40px;
+}
 
 @media screen and (max-width: 800px) {
   .nav {
