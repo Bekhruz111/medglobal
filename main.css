@@ -2,70 +2,110 @@
   --dark-color: rgb(37, 37, 37);
   --primary-color: rgb(12, 109, 136);
   --gray-color: rgb(119, 119, 119);
+  --blue--color: rgb(232, 241, 255);
 }
 
+p {
+  color: var(--gray-color);
+}
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
 }
-
 .nav {
   display: flex;
   padding: 10px 0;
   justify-content: space-between;
+  margin: 0 45px 0 45px;
 }
-
 .nav-col {
   display: flex;
 }
-
 .nav-link {
   display: block;
   padding: 18px 14px;
   text-decoration: none;
   color: var(--dark-color);
 }
-
-.name {
+.pr-color {
   color: var(--primary-color);
 }
-.img1 {
-  width: 600px;
+.container {
+  width: 90%;
+  margin: auto;
 }
-
-.body-img {
-  margin-top: 50px;
+.intro {
+  background-color: var(--blue--color);
 }
-p {
-  color: var(--gray-color);
+.intro-content {
+  display: flex;
+  margin-top: 10em;
+  height: 400px;
+  width: 50%;
 }
-.text {
-  width: 1200px;
+.intro-titel {
+  font-size: 3.5em;
+  position: relative;
 }
-.mt-5 {
-  margin: 10px;
+.nav-brand {
+  font-size: 2em;
+  margin-right: 2em;
+}
+.itnro-content-img {
+  position: absolute;
+  right: 30em;
+}
+.intro-content-titel {
+  margin-left: 5em;
 }
 
 @media screen and (max-width: 800px) {
   .nav {
     display: block;
   }
-  .nav1 {
-    margin: auto;
+  .intro-content {
+    display: block;
+    height: 500px;
+    margin: 0;
+  }
+  .itnro-content-img {
+    position: absolute;
+    right: 25px;
+    top: 6em;
+  }
+  .intro-titel {
+    font-size: 1em;
+  }
+  .nav-col {
+    display: flex;
+  }
+  .nav-link {
+    display: flex;
+    font-size: xx-small;
+    text-decoration: none;
+    color: var(--dark-color);
+  }
+  p {
+    font-size: 10px;
+  }
+  .intro-content-titel {
+    margin-left: 1px;
+    margin-top: 20em;
+  }
+  .nav {
+    display: inline-block;
+    padding: 0;
     justify-content: space-between;
+    margin: 0;
   }
-
-  .a1 {
-    display: none;
+  img {
+    height: 18em;
   }
-
-  .img1 {
-    width: 300px;
+  .nav-brand {
+    font-size: 1em;
+    margin-right: 1em;
   }
-  .text {
-    font-size: 0;
-  }
-  h3 {
-    width: 300px;
+  .pr-color {
+    color: var(--primary-color);
   }
 }
